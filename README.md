@@ -9,9 +9,9 @@ La empresa PQR, dedicada a la fabricación de ventanas de aluminio, requiere un 
 
 El sistema debe ser capaz de manejar los estilos de ventana disponibles (O, XO, OXXO, OXO), calcular el costo de materiales (aluminio, vidrio, esmerilado) y aplicar descuentos cuando se realicen pedidos en grandes volúmenes.
 
-#Funcionalidades:
+# Funcionalidades:
 
-#####Selección de estilos de ventanas: 
+##### Selección de estilos de ventanas: 
 El sistema permite elegir entre los siguientes estilos de ventana:
 
 - O: Fija, de un solo panel.
@@ -26,7 +26,7 @@ El sistema permite elegir entre los siguientes estilos de ventana:
 
 - Cálculo de dimensiones: El costo de la ventana se calcula según el ancho y alto total de la ventana, dividiendo correctamente cada nave según el estilo seleccionado.
 
-#####Cálculo de materiales:
+##### Cálculo de materiales:
 
 Acabados de aluminio: Los usuarios pueden seleccionar entre cuatro acabados distintos:
 
@@ -38,7 +38,7 @@ Acabados de aluminio: Los usuarios pueden seleccionar entre cuatro acabados dist
 
 - Anodizado: $57,300 por metro lineal.
 
-#####Tipos de vidrio:
+##### Tipos de vidrio:
 - Transparente: $8.25 por cm².
 
 - Bronce: $9.15 por cm².
@@ -47,22 +47,22 @@ Acabados de aluminio: Los usuarios pueden seleccionar entre cuatro acabados dist
 
 - Esmerilado (opcional): $5.20 adicional por cm².
 
-#####Cálculo de componentes adicionales:
+##### Cálculo de componentes adicionales:
 
 - Esquinas: $4,310 por esquina.
 
 - Chapas: $16,200 por cada nave móvil (X).
 
-#####Descuentos por volumen: 
+##### Descuentos por volumen: 
 
 Aplicación automática de un descuento del 10% si el número de ventanas solicitadas supera las 100 unidades.
 
-#####Generación de cotización final: 
+##### Generación de cotización final: 
 El sistema genera un resumen con el costo total de cada ventana y el costo global para el cliente.
 
 ## Requerimientos del Proyecto
 
-#####Requerimientos Funcionales
+##### Requerimientos Funcionales
 - Los usuarios deben ser capaces de seleccionar entre los diferentes estilos de ventanas.
 - El sistema debe calcular el precio en función de las dimensiones, materiales y componentes adicionales.
 - Debe permitir seleccionar acabados de aluminio y tipos de vidrio.
@@ -89,14 +89,14 @@ git clone  https://github.com/DanielChavezV/Parcial_Programacion_I.git
 
 2. Crear y activar el entorno virtual:
 
-	```bash
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/MacOS
 venv\Scripts\activate  # Windows
 ```
 3. Instalar las dependencias:
 
-	```bash
+```bash
 pip install -r requirements.txt
 ```
 
